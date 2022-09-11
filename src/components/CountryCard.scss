@@ -1,0 +1,46 @@
+.CountryCard {
+  /* Change background color */
+  background-color: white;
+  flex-shrink: 1;
+
+  /* Add border */
+  
+
+  /* Add space between the border and the content */
+  width: 18%;
+  margin: 2.5em;
+
+  // border-radius: 4px 1px 1px 1px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  img {
+    width: 100%;
+    border-radius: 8px 8px 1px 1px;
+    height:14em;
+    object-fit: cover;
+  }
+
+  .card-details {
+    /* Add space around the details */
+    padding: 16px 8px 8px 8px;
+    margin:16px 8px;
+
+    strong{
+       padding-bottom: 2em;
+    }
+
+    .country-name {
+      font-size: 24px;
+      font-weight: 600;
+
+     
+    }
+    .country-info{
+      p {
+        font-size: 14px;
+        color: #7f8c9b;
+        line-height: 150%;
+      }
+    }
+  }
+}
